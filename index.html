@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Font Style -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Bungee+Spice&display=swap" rel="stylesheet">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+
+    
+
+    <title>My Web Portfolio</title>
+</head>
+<body>
+	<!-- Section Navbar Start -->
+	<!-- Image and text -->
+	<nav class="navbar navbar-expand-lg navbar-dark fixed-top " style="background-color: #0B2447;">
+	  	<a class="navbar-brand " href="#" style="font-family: Bungee Spice;">
+	    	<img src="./images/j.png" width="30" height="30" class="d-inline-block align-top mr-2" alt="">Joseph Bongat
+	  	</a>
+	  	<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav">
+	  	<span class="navbar-toggle-icon"></span>
+	  	</button>
+	  	<div class="collapse navbar-collapse" id="navbarNav" style="font-family: Cinzel;">
+		    <ul class="navbar-nav ml-auto">
+		      <li class="nav-item active">
+		        <a class="nav-link" href="#">About Me</a>
+		      </li>
+		      <li class="nav-item">
+		        <a class="nav-link" href="#project">Projects</a>
+		      </li>
+		      <li class="nav-item">
+		        <a class="nav-link" href="#contact">Contact</a>
+		      </li>
+		      <li class="nav-item">
+		        <a class="nav-link" href="#tools">Tools</a>
+		      </li>
+		    </ul>
+		</div>
+	</nav>
+
+		<!-- Section Landing Start -->
+		<div id="landingsection" class="container-fluid text-center pt-5 min-vh-100 "style=" background-color: #576CBC;">
+			<div class="row d-flex justify-content-center text-#F3F3F3">
+				<div class="col-lg-3 m-5" >
+					<img class="mt-5 mt-md-0 rounded-circle" src="./images/Joseph CV2.jpg" width="300">
+				</div>
+				<div class="col-lg-4 m-5">
+					<div style="font-family: Cinzel;">
+						<h1>About Me</h1>
+						<h3>Full-Stack Web Developer</h3>
+						<p class=" text-justify text-dark"> 	I have a strong passion for coding and I'm always eager to learn new skills and knowledge that will help an organization as well as improve myself. I have experience working on a variety of projects, using agile methodologies to ensure timely and high-quality delivery. I am skilled in a range of programming languages and have a strong ability to learn new technologies quickly. Additionally, I am a team player who is able to work well with others to achieve common goals
+						</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- Section Landing End -->
+
+		<!-- Section Project Start -->
+		<div class="bg-secondary text-light min-vh-100 p-5">
+			<h2 class="mb-3">Projects</h2>
+			<div class="d-lg-flex justify-content-center p-md-5 text-center" >
+
+				<div class="card bg-dark col-xl-4 mb-5 ml-xl-5" style="width: 18rem;">
+				  <div class="card-body">
+				  	<img src="./images/j.png" class="card-img-top" alt="...">
+				    <h5 class="card-title">Bootstrap Layout and Best Practices</h5>
+				  </div>
+				</div>
+
+				<div class="card bg-dark col-xl-4 mb-5 mx-xl-5" style="width: 18rem;">
+				  <div class="card-body">
+				  	<img src="./images/j2.png" class="card-img-top" alt="...">
+				    <h5 class="card-title">PCSO Winners</h5>
+				  </div>
+				</div>
+			</div>
+		</div>
+
+
+		<!-- Section Project End -->
+
+		<!-- Section Contact Start -->
+		<!-- FB,Linkin,Github,gitlab icons -->
+		<div class=" bg-secondary text-center" style="font-family: Cinzel,;">
+		<div id="contact" style="background-image: url(https://images.pexels.com/photos/7974/pexels-photo.jpg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);">
+			<h2>Contact Me</h2>
+			<div class="bg-dark row mt-5 d-flex justify-content-center col-12 col-sm-12 col-md-8 col-lg-8 col-xl-4 mx-auto p-2 rounded">
+					<form action="#" id="form-col" class="container-fluid">
+						<label for="first_name">Name</label><br>
+						<input type="type" name="first_name" id="first_name" required autocomplete="" class="container-fluid" placeholder="Your Name"><br>
+						<label for="email">Email Address</label><br>
+						<input type="type" name="email" id="email" required autocomplete="" class="container-fluid" placeholder="name@example.com"><br>
+						<label for="contact_number">Contact Number</label><br>
+						<input type="type" name="contact_number" id="contact_number" required autocomplete="" class="container-fluid" placeholder="09123456789"><br>
+						<label for="service_type">Concern</label><br>
+						<label for="message">Message</label><br>
+						<textarea name="message" rows="5" id="message" class="container-fluid"></textarea><br>
+
+						<!-- Button trigger modal -->
+						<button type="button" class="btn bg-dark btn-primary" data-toggle="modal" data-target="#staticBackdrop">
+						  Send Email
+						</button>
+
+						<!-- Modal -->
+						<div class="modal fade" id="staticBackdrop" data-backdrop="static" data-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+						  <div class="modal-dialog">
+						    <div class="modal-content">
+						      <div class="modal-header">
+						        <h5 class="modal-title text-dark" id="staticBackdropLabel">Thank you for contacting us</h5>
+						        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+						          <span aria-hidden="true">&times;</span>
+						        </button>
+						      </div>
+						      <div class="modal-body text-dark">
+						        Message Successfully Sent
+						      </div>
+						      <div class="modal-footer">
+						        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>										      
+						    </div>
+						    </div>
+						  </div>
+						</div>
+					</form>
+			</div>
+	
+		</div>
+
+		<!-- Section Contact End -->
+
+		<!-- Section Tools Start-->
+		<div id="tools">
+			 <div class="d-flex flex-column" id="core-tools">
+	                <div class="d-flex justify-content-center" id="html">
+	                    <img width="150" src="images/logo-html5.png"/>
+	                </div>
+	                <div class="d-flex justify-content-center" id="css-js">
+	                    <img width="150" src="images/logo-css3.png"/>
+	                    <img width="150" src="images/logo-javascript.png"/>
+	                </div>
+	         </div>
+			 <div class="d-flex flex-md-column" id="other-tools">
+                    <div class="d-md-flex justify-content-center" id="tools-1">
+                        <img width="150" src="images/logo-mongodb.png"/>
+                        <img width="150" src="images/logo-nodejs.png"/>
+                        <img width="150" src="images/logo-expressjs.png"/>
+                        <img width="150" src="images/logo-react.png"/>
+                        <img width="150" src="images/logo-heroku.png"/>
+                    </div>
+                    <div class="d-md-flex justify-content-center mt-3" id="tools-2">
+                        <img width="150" src="images/logo-git.png"/>
+                        <img width="150" src="images/logo-sublime-text-3.png"/>
+                        <img width="150" src="images/logo-postman.png"/>
+                        <img width="150" src="images/logo-gitlab-ci-cd.png"/>
+                    </div>
+                </div>
+		</div>
+		<!-- Section Tools End-->
+
+		<!-- footer -->
+		<footer class="d-flex justify-content-center d-grid gap-3 m-5">
+			<div>Facebook</div>
+			<div>|</div>
+			<div>Linkin</div>
+			<div>|</div>
+			<div>email</div>
+		</footer>
+
+	
+
+
+	<!-- Section Navbar End -->
+
+
+
+
+<!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
+</body>
+</html>
