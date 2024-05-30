@@ -1,0 +1,29 @@
+/*css reset*/
+*{
+	margin : 0;
+	padding : 0;
+	box-sizing: border-box;
+}
+
+
+.nav-link {
+	color: #DC5F00;
+}
+
+body {
+	background-color: #373A40 ;
+}
+
+h1 , h3 , p {
+	color:#EEEEEE ;
+}
+
+
+hr {
+  height: 5px;
+  background-color: #DC5F00;
+  border-color: #DC5F00;
+  margin-left: 20px;
+  margin-right: 20px;	
+}
+
